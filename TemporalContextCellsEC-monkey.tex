@@ -345,17 +345,19 @@ entorhinal cortex}
 It is well-understood that sequentially-activated time cells can be used to
 decode the time since the beginning of a delay \cite<e.g.,>[Supplementary
 information, Figure~\ref{fig:LDA_simulated}]{MauEtal18}.  The accuracy of the
-temporal decoding can be used to assess the temporal information present.
+temporal decoding can be used to assess the temporal information present in the population of cells.
 From a theoretical standpoint, we would expect exponentially decaying cells to
 have temporal information, but to have less information present as time
 elapses (see simulated data analysis in Supplementary information,
 Figure~\ref{fig:LDA_simulated}).  A linear discriminant analysis (LDA) was
 used as the decoder to test this hypothesis.  In this analysis the LDA
-classifier was trained on the firing rate across units at each of several time
-bins for a subset of the trials (see Methods for details).  To evaluate the
-amount of information about time available in the population, the classifier
-was then used to predict the time bin for time bins from a different subset of
-trials.  To the extent the predicted time bin is close to the actual time bin,
+classifier was trained on one subset of the data (the "training data")
+and tested on another subset of the data (the "testing data").
+The training data was the firing rate across units at each of several time
+bins for a subset of the trials.  The testing data was the firing rate across units
+at each of several time bins for a different subset of the trials.
+To evaluate the amount of information about time available in the population, the classifier
+trained to predict the time bin. To the extent the predicted time bin is close to the actual time bin,
 one can conclude that the population response carried information about time.
 
 
@@ -380,7 +382,7 @@ error from the cross-validated LDA.
 To quantitatively compare this value to chance we compared the true value of decoding error
 to the distribution of decoding errors across a permuted data set.  In each of
 1000~permutations we randomly assigned the time bin labels of the training
-events used to train the classifier.  The observed value of the absolute value of the decoding error
+events used to train the classifier.  The absolute value of the decoding error for the original data
 was 1.35~s, which is less (i.e., more accurate) than the mean absolute value of the decoding error for all 1000
 permutations (shown in Figure \ref{fig:permutest}, normally distributed with mean 1.66~s, with standard deviation .04~s, $p<.001$ that 1.35~s comes from this distribution).  These analyses show that time can be decoded from monkey
 entorhinal cortex.
@@ -403,7 +405,7 @@ To assess how far into the interval time could be reconstructed, we repeated
 the LDA analysis excluding progressively more time bins starting from zero.
 If the LDA can reconstruct time using only bins corresponding to times $\geq
 t$, then we can (conservatively) conclude that time can be reconstructed at
-least time $t$ into the interval. To assess this quantitatively, the
+least time $t$ into the interval. To assess this quantitatively,
 the actual data was compared with permuted data for each repetition of the LDA.  
 The mean of
 the absolute error across time bins can be used as a metric to compare the
