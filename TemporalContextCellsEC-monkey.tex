@@ -249,7 +249,7 @@ monkeys during performance of a visual free viewing task.  Each trial began
 with fixation, followed by presentation of a complex visual image that remained on the
 screen for five seconds of free viewing.
 Figure~\ref{fig:SingleCellResults}a  shows rasters and PSTH
-(green dashed line) for
+(green dashed line) for three
 representative units.  Unlike canonical hippocampal time cells, which are
 activated at a variety of points within the delay (e.g.,
 Figure~\ref{fig:TimeCellExamples}a, b), most entorhinal units changed their firing
@@ -306,15 +306,15 @@ Figure~\ref{fig:SingleCellResults}c shows the values of these key
 parameters for each unit that was categorized as a temporal context cell.  
 The values of $\mu$ were clustered at small values.
 The median value of $\mu$ was 160~ms, the interquartile range was 130~ms to
-270~ms and .9 of the units had a value of less than 440 ms.
+270~ms and 90 \% of the units had a value of less than 440 ms.
 In contrast, $\tau$ showed a much wider distribution.  For
 instance, several units had a $\tau$ of 5~s, the highest value 
 considered given the five second free viewing period. 
 The mean value of $\tau$ was 
 750~ms with a standard deviation of 1300~ms.
 The median value of $\tau$ was 210~ms, comparable to the value for $\mu$, but
-the interquartile range was much broader, ranging from 90~ms to 640~ms and .9 of
-the units had a value less than 1920~ms.  
+the interquartile range was much broader, ranging from 90~ms to 640~ms and 90 \% 
+of the units had a value less than 1920~ms.  
 
 
 
@@ -525,7 +525,8 @@ Further, temporal context cells resulted in
 a distribution of correlation coefficients with a mean significantly greater
 than zero, as measured by t-test $t(118)=5.10$, $p <0.0001$, $\text{ Cohen's } d = 0.4677$
 and Wilcoxon signed rank test, $V = 5659, p <0.0001$.
- While units that were not fit also resulted in a distribution with a mean
+While units that were not identified as temporal context cells
+also resulted in a distribution with a mean
 significantly different from zero $t(185)=3.65$, $p <0.01$,$\text{ Cohen's } d
 = 0.2673, V = 11270, p = 0.0001$ these two distributions were also significantly
 different from each other by t-test $t(303)=2.25$, $p =0.02$,$\text{ Cohen's } d = 0.2253$,
@@ -820,10 +821,10 @@ The mean absolute value of error is not precisely linear for several reasons.  E
 
 For each unit, we calculated if the time series of spike counts during image presentation 
 was significantly fit by an AR(1) model as measured by Akaike information criterion, using the
-ar function in R. Only units that averaged a firing rate of at least 2 Hz during image presentation 
+``ar'' function in R. Only units that averaged a firing rate of at least 2 Hz during image presentation 
 and were recorded for at least 60 trials were considered.
 Once units were identified using this method, we then measured at what lags
-those units showed a significant autocorrelation using the autocorr function in Matlab. We
+those units showed a significant autocorrelation using the ``autocorr'' function in Matlab. We
 considered the length of a unit's autocorrelation to be the lag just prior to the smallest lag 
 at which the unit was no longer significantly autocorrelated.
 
