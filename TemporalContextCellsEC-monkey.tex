@@ -870,9 +870,19 @@ firing.
 
 
 \subsubsection{Properties of $\sigma$, $\mu$ and $\tau$ for idealized time cells
-and exponentially decaying units}
+and Temporal Context Cells}
 
-TODO: Remind people about sigma, mu and tau.
+As shown in Figure~\ref{fig:SMTschematic}, populations of theoretical time cells
+and temporal context cells result in different distributions of parameters. Time
+cell peaks ($\mu$) span the entirety of a time interval, and cell peaks over-represent
+the beginning of a delay. Time cell receptive fields widen 
+($\sigma$) and become increasingly skewed ($\tau$) the later in the delay they
+peak. As a result, these parameters are all positively correlated with one another
+for a population of time cells. Temporal context cells peak ($\mu$) at the
+beginning of a time interval. The decay rate ($\tau$) of temporal
+context cells should span the interval, with more smaller values of
+$\tau$ than larger values. In temporal context cells, $\sigma$ measures
+the deviation from a purely exponential curve and should be very small.  
 
 It is straightforward to compute the relationships between $\mu$ and $\tau$
 across units for two forms of temporal coding.  For a population of temporal
@@ -893,7 +903,6 @@ expect to see a large degree of variability in the estimates of $\sigma$.
 $\mu$ should describe the latency between when the stimulus is presented and
 it conveys information to the neurons.  We would expect $\mu$ to be the same
 across units that encode Eq.~\ref{eq:Laplaceunits}.
-TODO: Talk about $\sigma$.
 
 TODO: Analogous walk through the equation and each of the parameters.
 \begin{equation}

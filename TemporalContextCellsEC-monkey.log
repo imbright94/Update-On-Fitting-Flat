@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  28 FEB 2019 13:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017) (preloaded format=pdflatex 2017.5.23)  28 FEB 2019 13:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -819,36 +819,36 @@ Underfull \vbox (badness 1442) has occurred while \output is active []
 File: figs/HeatmapExpDecayV2.png Graphic file (type png)
 
 <use figs/HeatmapExpDecayV2.png>
-Package pdftex.def Info: figs/HeatmapExpDecayV2.png used on input line 907.
+Package pdftex.def Info: figs/HeatmapExpDecayV2.png used on input line 916.
 (pdftex.def)             Requested size: 107.32153pt x 98.78938pt.
 
 <figs/ExpDecParams.pdf, id=97, 275.0275pt x 175.65625pt>
 File: figs/ExpDecParams.pdf Graphic file (type pdf)
 
 <use figs/ExpDecParams.pdf>
-Package pdftex.def Info: figs/ExpDecParams.pdf used on input line 908.
+Package pdftex.def Info: figs/ExpDecParams.pdf used on input line 917.
 (pdftex.def)             Requested size: 107.32153pt x 68.54317pt.
 
 <figs/HeatmapTimeCellsV2.png, id=98, 430.57706pt x 396.34389pt>
 File: figs/HeatmapTimeCellsV2.png Graphic file (type png)
 
 <use figs/HeatmapTimeCellsV2.png>
-Package pdftex.def Info: figs/HeatmapTimeCellsV2.png used on input line 913.
+Package pdftex.def Info: figs/HeatmapTimeCellsV2.png used on input line 922.
 (pdftex.def)             Requested size: 107.32153pt x 98.78938pt.
 
 <figs/TimeCellParams.pdf, id=99, 275.0275pt x 178.6675pt>
 File: figs/TimeCellParams.pdf Graphic file (type pdf)
 
 <use figs/TimeCellParams.pdf>
-Package pdftex.def Info: figs/TimeCellParams.pdf used on input line 914.
+Package pdftex.def Info: figs/TimeCellParams.pdf used on input line 923.
 (pdftex.def)             Requested size: 107.32153pt x 69.7182pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 912--915
+Underfull \hbox (badness 10000) in paragraph at lines 921--924
 []\OT1/cmr/bx/n/10.95 b
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 912--915
+Underfull \hbox (badness 10000) in paragraph at lines 921--924
 []
  []
 
@@ -856,41 +856,41 @@ Underfull \hbox (badness 10000) in paragraph at lines 912--915
 File: figs/alldists.jpg Graphic file (type jpg)
 
 <use figs/alldists.jpg>
-Package pdftex.def Info: figs/alldists.jpg used on input line 919.
+Package pdftex.def Info: figs/alldists.jpg used on input line 928.
 (pdftex.def)             Requested size: 212.47287pt x 185.37396pt.
 
 <figs/allexamples2.jpg, id=101, 4884.2475pt x 3880.4975pt>
 File: figs/allexamples2.jpg Graphic file (type jpg)
 
 <use figs/allexamples2.jpg>
-Package pdftex.def Info: figs/allexamples2.jpg used on input line 925.
+Package pdftex.def Info: figs/allexamples2.jpg used on input line 934.
 (pdftex.def)             Requested size: 212.47287pt x 168.75291pt.
  <figs/Mu_Tau.pdf, id=102, 273.02pt x 283.0575pt>
 File: figs/Mu_Tau.pdf Graphic file (type pdf)
 
 <use figs/Mu_Tau.pdf>
-Package pdftex.def Info: figs/Mu_Tau.pdf used on input line 932.
+Package pdftex.def Info: figs/Mu_Tau.pdf used on input line 941.
 (pdftex.def)             Requested size: 212.47287pt x 220.28725pt.
 
-Overfull \hbox (4.86667pt too wide) in paragraph at lines 904--960
+Overfull \hbox (4.86667pt too wide) in paragraph at lines 913--969
 []$[]$ $[]$ $[]$
  []
 
 
-Overfull \hbox (2.43333pt too wide) in paragraph at lines 904--960
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 913--969
 []$ $[]$ 
  []
 
 
-LaTeX Warning: Float too large for page by 22.49959pt on input line 961.
+LaTeX Warning: Float too large for page by 22.49959pt on input line 970.
 
 File: figs/ExpDecParams.pdf Graphic file (type pdf)
 <use figs/ExpDecParams.pdf>
-Package pdftex.def Info: figs/ExpDecParams.pdf used on input line 981.
+Package pdftex.def Info: figs/ExpDecParams.pdf used on input line 990.
 (pdftex.def)             Requested size: 173.44534pt x 110.77927pt.
 File: figs/TimeCellParams.pdf Graphic file (type pdf)
  <use figs/TimeCellParams.pdf>
-Package pdftex.def Info: figs/TimeCellParams.pdf used on input line 984.
+Package pdftex.def Info: figs/TimeCellParams.pdf used on input line 993.
 (pdftex.def)             Requested size: 173.44534pt x 112.67833pt.
 
 <figs/LogPosteriorExpDecay_75noiseV3.png, id=103, 426.01263pt x 319.50948pt>
@@ -898,7 +898,7 @@ File: figs/LogPosteriorExpDecay_75noiseV3.png Graphic file (type png)
 
 <use figs/LogPosteriorExpDecay_75noiseV3.png>
 Package pdftex.def Info: figs/LogPosteriorExpDecay_75noiseV3.png used on input 
-line 987.
+line 996.
 (pdftex.def)             Requested size: 195.12767pt x 146.34723pt.
 
 <figs/LogPosteriorTimeCells_20noiseV3.png, id=104, 426.01263pt x 319.50948pt>
@@ -906,7 +906,7 @@ File: figs/LogPosteriorTimeCells_20noiseV3.png Graphic file (type png)
 
 <use figs/LogPosteriorTimeCells_20noiseV3.png>
 Package pdftex.def Info: figs/LogPosteriorTimeCells_20noiseV3.png used on input
- line 988.
+ line 997.
 (pdftex.def)             Requested size: 195.12767pt x 146.34723pt.
 
 <figs/AbsErrorExpDecay_75noiseV3.png, id=105, 426.01263pt x 319.50948pt>
@@ -914,7 +914,7 @@ File: figs/AbsErrorExpDecay_75noiseV3.png Graphic file (type png)
 
 <use figs/AbsErrorExpDecay_75noiseV3.png>
 Package pdftex.def Info: figs/AbsErrorExpDecay_75noiseV3.png used on input line
- 991.
+ 1000.
 (pdftex.def)             Requested size: 173.44534pt x 130.08318pt.
 
 <figs/AbsErrorTimeCells_20noiseV3.png, id=106, 426.01263pt x 319.50948pt>
@@ -922,58 +922,58 @@ File: figs/AbsErrorTimeCells_20noiseV3.png Graphic file (type png)
 
 <use figs/AbsErrorTimeCells_20noiseV3.png>
 Package pdftex.def Info: figs/AbsErrorTimeCells_20noiseV3.png used on input lin
-e 993.
+e 1002.
 (pdftex.def)             Requested size: 173.44534pt x 130.08318pt.
 
-Overfull \hbox (17.75247pt too wide) in paragraph at lines 978--1011
+Overfull \hbox (17.75247pt too wide) in paragraph at lines 987--1020
 [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 978--1011
+Underfull \hbox (badness 10000) in paragraph at lines 987--1020
 
  []
 
 
-LaTeX Warning: Float too large for page by 29.25388pt on input line 1013.
+LaTeX Warning: Float too large for page by 29.25388pt on input line 1022.
 
 <figs/Permutest_V2.png, id=107, 426.01263pt x 319.50948pt>
 File: figs/Permutest_V2.png Graphic file (type png)
 
 <use figs/Permutest_V2.png>
-Package pdftex.def Info: figs/Permutest_V2.png used on input line 1016.
+Package pdftex.def Info: figs/Permutest_V2.png used on input line 1025.
 (pdftex.def)             Requested size: 303.53267pt x 227.65286pt.
  <figs/CorrS.png, id=108, 1037.8775pt x 507.8975pt>
 File: figs/CorrS.png Graphic file (type png)
 
 <use figs/CorrS.png>
-Package pdftex.def Info: figs/CorrS.png used on input line 1034.
+Package pdftex.def Info: figs/CorrS.png used on input line 1043.
 (pdftex.def)             Requested size: 208.13574pt x 101.84894pt.
  <figs/JBITS.png, id=109, 1037.8775pt x 507.8975pt>
 File: figs/JBITS.png Graphic file (type png)
 
 <use figs/JBITS.png>
-Package pdftex.def Info: figs/JBITS.png used on input line 1035.
+Package pdftex.def Info: figs/JBITS.png used on input line 1044.
 (pdftex.def)             Requested size: 208.13574pt x 101.84894pt.
  <figs/CorrDist.png, id=110, 1124.2pt x 843.15pt>
 File: figs/CorrDist.png Graphic file (type png)
 
 <use figs/CorrDist.png>
-Package pdftex.def Info: figs/CorrDist.png used on input line 1038.
+Package pdftex.def Info: figs/CorrDist.png used on input line 1047.
 (pdftex.def)             Requested size: 216.81pt x 162.60599pt.
  <figs/JBIT2.png, id=111, 1124.2pt x 843.15pt>
 File: figs/JBIT2.png Graphic file (type png)
 
 <use figs/JBIT2.png>
-Package pdftex.def Info: figs/JBIT2.png used on input line 1039.
+Package pdftex.def Info: figs/JBIT2.png used on input line 1048.
 (pdftex.def)             Requested size: 216.81pt x 162.60599pt.
 
-Overfull \hbox (24.00003pt too wide) in paragraph at lines 1031--1048
+Overfull \hbox (24.00003pt too wide) in paragraph at lines 1040--1057
 [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1031--1048
+Underfull \hbox (badness 10000) in paragraph at lines 1040--1057
 
  []
 
@@ -982,7 +982,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1031--1048
 File: Supplemental_Cells/allcell_138_v_11.jpeg Graphic file (type jpg)
 <use Supplemental_Cells/allcell_138_v_11.jpeg>
 Package pdftex.def Info: Supplemental_Cells/allcell_138_v_11.jpeg used on input
- line 1055.
+ line 1064.
 (pdftex.def)             Requested size: 143.09538pt x 91.38322pt.
 
 <Supplemental_Cells/allcell_92_v_11.jpeg, id=113, 2022.55624pt x 1291.82625pt>
@@ -990,21 +990,21 @@ File: Supplemental_Cells/allcell_92_v_11.jpeg Graphic file (type jpg)
 
 <use Supplemental_Cells/allcell_92_v_11.jpeg>
 Package pdftex.def Info: Supplemental_Cells/allcell_92_v_11.jpeg used on input 
-line 1057.
+line 1066.
 (pdftex.def)             Requested size: 143.09538pt x 91.38322pt.
 
 <Supplemental_Cells/allcell_101_v_11.jpeg, id=114, 2022.55624pt x 1291.82625pt>
 File: Supplemental_Cells/allcell_101_v_11.jpeg Graphic file (type jpg)
 <use Supplemental_Cells/allcell_101_v_11.jpeg>
 Package pdftex.def Info: Supplemental_Cells/allcell_101_v_11.jpeg used on input
- line 1059.
+ line 1068.
 (pdftex.def)             Requested size: 143.09538pt x 91.38322pt.
 
 <Supplemental_Cells/allcell_292_v_11.jpeg, id=115, 2022.55624pt x 1291.82625pt>
 File: Supplemental_Cells/allcell_292_v_11.jpeg Graphic file (type jpg)
 <use Supplemental_Cells/allcell_292_v_11.jpeg>
 Package pdftex.def Info: Supplemental_Cells/allcell_292_v_11.jpeg used on input
- line 1062.
+ line 1071.
 (pdftex.def)             Requested size: 143.09538pt x 91.38322pt.
 
 <Supplemental_Cells/allcell_35_v_11.jpeg, id=116, 2022.55624pt x 1291.82625pt>
@@ -1012,7 +1012,7 @@ File: Supplemental_Cells/allcell_35_v_11.jpeg Graphic file (type jpg)
 
 <use Supplemental_Cells/allcell_35_v_11.jpeg>
 Package pdftex.def Info: Supplemental_Cells/allcell_35_v_11.jpeg used on input 
-line 1064.
+line 1073.
 (pdftex.def)             Requested size: 143.09538pt x 91.38322pt.
 
 <Supplemental_Cells/allcell_17_v_11.jpeg, id=117, 2022.55624pt x 1291.82625pt>
@@ -1020,57 +1020,57 @@ File: Supplemental_Cells/allcell_17_v_11.jpeg Graphic file (type jpg)
 
 <use Supplemental_Cells/allcell_17_v_11.jpeg>
 Package pdftex.def Info: Supplemental_Cells/allcell_17_v_11.jpeg used on input 
-line 1066.
+line 1075.
 (pdftex.def)             Requested size: 143.09538pt x 91.38322pt.
 
 <Supplemental_Cells/allcell_209_v_11.jpeg, id=118, 2022.55624pt x 1291.82625pt>
 File: Supplemental_Cells/allcell_209_v_11.jpeg Graphic file (type jpg)
 <use Supplemental_Cells/allcell_209_v_11.jpeg>
 Package pdftex.def Info: Supplemental_Cells/allcell_209_v_11.jpeg used on input
- line 1069.
+ line 1078.
 (pdftex.def)             Requested size: 143.09538pt x 91.38322pt.
 
 <Supplemental_Cells/allcell_252_v_11.jpeg, id=119, 2022.55624pt x 1291.82625pt>
 File: Supplemental_Cells/allcell_252_v_11.jpeg Graphic file (type jpg)
 <use Supplemental_Cells/allcell_252_v_11.jpeg>
 Package pdftex.def Info: Supplemental_Cells/allcell_252_v_11.jpeg used on input
- line 1071.
+ line 1080.
 (pdftex.def)             Requested size: 143.09538pt x 91.38322pt.
 
 <Supplemental_Cells/allcell_137_v_11.jpeg, id=120, 2022.55624pt x 1291.82625pt>
 File: Supplemental_Cells/allcell_137_v_11.jpeg Graphic file (type jpg)
 <use Supplemental_Cells/allcell_137_v_11.jpeg>
 Package pdftex.def Info: Supplemental_Cells/allcell_137_v_11.jpeg used on input
- line 1073.
+ line 1082.
 (pdftex.def)             Requested size: 143.09538pt x 91.38322pt.
 
 <Supplemental_Cells/allcell_289_v_11.jpeg, id=121, 2022.55624pt x 1291.82625pt>
 File: Supplemental_Cells/allcell_289_v_11.jpeg Graphic file (type jpg)
 <use Supplemental_Cells/allcell_289_v_11.jpeg>
 Package pdftex.def Info: Supplemental_Cells/allcell_289_v_11.jpeg used on input
- line 1076.
+ line 1085.
 (pdftex.def)             Requested size: 143.09538pt x 91.38322pt.
 
 <Supplemental_Cells/allcell_330_v_11.jpeg, id=122, 2022.55624pt x 1291.82625pt>
 File: Supplemental_Cells/allcell_330_v_11.jpeg Graphic file (type jpg)
 <use Supplemental_Cells/allcell_330_v_11.jpeg>
 Package pdftex.def Info: Supplemental_Cells/allcell_330_v_11.jpeg used on input
- line 1078.
+ line 1087.
 (pdftex.def)             Requested size: 143.09538pt x 91.38322pt.
 
 <Supplemental_Cells/allcell_123_v_11.jpeg, id=123, 2022.55624pt x 1291.82625pt>
 File: Supplemental_Cells/allcell_123_v_11.jpeg Graphic file (type jpg)
 <use Supplemental_Cells/allcell_123_v_11.jpeg>
 Package pdftex.def Info: Supplemental_Cells/allcell_123_v_11.jpeg used on input
- line 1080.
+ line 1089.
 (pdftex.def)             Requested size: 143.09538pt x 91.38322pt.
 
-Overfull \hbox (31.6662pt too wide) in paragraph at lines 1054--1085
+Overfull \hbox (31.6662pt too wide) in paragraph at lines 1063--1094
 [] []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1054--1085
+Underfull \hbox (badness 10000) in paragraph at lines 1063--1094
 
  []
 
@@ -1101,7 +1101,7 @@ Supplemental_Cells/allcell_123_v_11.jpeg>] (./TemporalContextCellsEC-monkey.aux
 Here is how much of TeX's memory you used:
  15468 strings out of 492995
  299855 string characters out of 6132704
- 368857 words of memory out of 5000000
+ 369857 words of memory out of 5000000
  18665 multiletter control sequences out of 15000+600000
  12284 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1120,7 +1120,7 @@ ive/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texli
 ve/2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/texlive
 /2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/local/texlive/
 2017/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on TemporalContextCellsEC-monkey.pdf (23 pages, 11722501 bytes).
+Output written on TemporalContextCellsEC-monkey.pdf (23 pages, 11723100 bytes).
 
 PDF statistics:
  260 PDF objects out of 1000 (max. 8388607)
