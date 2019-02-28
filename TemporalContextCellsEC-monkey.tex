@@ -756,6 +756,50 @@ than 2000~ms) the decoder did not perform significantly greater than chance
 level.  Thus, entorhinal units can be used to decode time at very least up to at least 1750~ms.  This analysis was repeated with
 larger bins (500~ms) generating a similar result (1500~ms).
 
+\subsection{Autocorrelation}
+
+For each unit, we calculated if the time series of spike counts during image presentation 
+was significantly fit by an AR(1) model as measured by Akaike information criterion, using the
+``ar'' function in R. Only units that averaged a firing rate of at least 2 Hz during image presentation 
+and were recorded for at least 60 trials were considered.
+Once units were identified using this method, we then measured at what lags
+those units showed a significant autocorrelation using the ``autocorr'' function in Matlab. We
+considered the length of a unit's autocorrelation to be the lag just prior to the smallest lag 
+at which the unit was no longer significantly autocorrelated.
+
+\subsection{Population Similarity}
+
+For each item we created two population vectors, one during first
+presentation and one during second presentation. Each vector was created from
+the mean firing activity of all the available units, such that vector length
+was equal to the number of available units. Mean firing rates were normalized
+by each unit's maximum average firing rate so that firing rates ranged from 0
+to 1. Only blocks where all images were presented twice were considered. In
+order to control for different block lengths between sessions, only the first
+30 images presented in each block were used. Lag was the distance between the
+first presentation of an image and another image, and ranged from -29 to 29.
+Recency was the distance between every pair of first presentation images in
+the same block and ranged from 1 to 29. Similarity was measured by measuring
+the cosine similarity of the two population vectors. The linear mixed effects
+model was calculated using R, with the packages ``plyr'', ``lme4'', and
+``lmerTest''. Spike correlations were calculated by determining the number of
+spikes in each trial. Spikes were then compared across first and second
+presentations of images.
+
+\nocite{Wick11,KuznEtal17,BateEtal14}
+
+\bibliography{bibdesk}
+\clearpage
+
+\setcounter{figure}{0}
+\renewcommand{\thefigure}{S\arabic{figure}}
+
+\setcounter{equation}{0}
+\renewcommand{\theequation}{S\arabic{equation}}
+
+
+\section{Supplementary Information}
+
 \subsubsection{Decoding of time from simulated temporal context
 cells and time cells decreases in precision with the passage of time}
 In order to illustrate properties of theoretically-motivated models for time
@@ -817,49 +861,6 @@ temporal context cell population \cite{ShanHowa13}.
 
 The mean absolute value of error is not precisely linear for several reasons.  Edge effects alter the decoding error towards the beginning and end of the duration.  The fact that the decoder is a linear decoder while the underlying encoding (exponentially decaying cells and time cells) is not linearly also partially accounts for the nonlinear change in decoding error.
 
-\subsection{Autocorrelation}
-
-For each unit, we calculated if the time series of spike counts during image presentation 
-was significantly fit by an AR(1) model as measured by Akaike information criterion, using the
-``ar'' function in R. Only units that averaged a firing rate of at least 2 Hz during image presentation 
-and were recorded for at least 60 trials were considered.
-Once units were identified using this method, we then measured at what lags
-those units showed a significant autocorrelation using the ``autocorr'' function in Matlab. We
-considered the length of a unit's autocorrelation to be the lag just prior to the smallest lag 
-at which the unit was no longer significantly autocorrelated.
-
-\subsection{Population Similarity}
-
-For each item we created two population vectors, one during first
-presentation and one during second presentation. Each vector was created from
-the mean firing activity of all the available units, such that vector length
-was equal to the number of available units. Mean firing rates were normalized
-by each unit's maximum average firing rate so that firing rates ranged from 0
-to 1. Only blocks where all images were presented twice were considered. In
-order to control for different block lengths between sessions, only the first
-30 images presented in each block were used. Lag was the distance between the
-first presentation of an image and another image, and ranged from -29 to 29.
-Recency was the distance between every pair of first presentation images in
-the same block and ranged from 1 to 29. Similarity was measured by measuring
-the cosine similarity of the two population vectors. The linear mixed effects
-model was calculated using R, with the packages ``plyr'', ``lme4'', and
-``lmerTest''. Spike correlations were calculated by determining the number of
-spikes in each trial. Spikes were then compared across first and second
-presentations of images.
-
-\nocite{Wick11,KuznEtal17,BateEtal14}
-
-\bibliography{bibdesk}
-\clearpage
-
-\setcounter{figure}{0}
-\renewcommand{\thefigure}{S\arabic{figure}}
-
-\setcounter{equation}{0}
-\renewcommand{\theequation}{S\arabic{equation}}
-
-
-\section{Supplementary Information}
 
 \subsection{Modeling properties of temporal responsive units}
 Increases in
