@@ -800,24 +800,19 @@ presentations of images.
 
 \section{Supplementary Information}
 
-\subsubsection{Decoding of time from simulated temporal context
-cells and time cells decreases in precision with the passage of time}
-In order to illustrate properties of theoretically-motivated models for time
-coding, we applied the LDA used on the data to two populations of simulated
-cells.  One population was composed of exponentially-decaying temporal context
-cells with a range of time constants.    The other population was chosen to
-have properties like those observed for hippocampal time cells.  
+\subsection{Modeling and Simulating Theoretical Temporal Context Cells and Time Cells}
+
 One can understand these two populations as encoding the Laplace transform of
 time since the onset of the stimulus and an approximate inverse of the Laplace transform
 respectively.   
 \begin{equation}
-\frac{dt(\tau,s)}{d\tau}=\alpha(\tau)\left[-st(\tau,s)+f(\tau)\right]
+\frac{dF(t,s)}{dt}=\alpha(\tau)\left[-sF(t,s)+f(t)\right]
 \label{eq:little_t}
 \end{equation}
-To construct this spectrum of time cells, first a spectrum of leaky integrators is constructed (Equation \ref{eq:little_t}).  In this equation, $\tau$ is time, $s$ is inversely proportional to the time constant of each simulated neuron. $t$ is the activity of each simulated neuron.
-A spectrum of $s$ are used to get a spectrum of simulated neurons. The input $f$ is a an impulse at time $\tau=0$.  The resulting neurons spike immediately and then decay according to the value of $s$.
+To construct this spectrum of time cells, first a spectrum of leaky integrators is constructed (Equation \eqref{eq:little_t}).  In this equation, $t$ is time, $s$ is inversely proportional to the time constant of each simulated neuron. $F$ is the activity of each simulated neuron.
+A spectrum of $s$ are used to get a spectrum of simulated neurons. The input $f$ is a an impulse at time $t=0$.  The resulting neurons spike immediately and then decay according to the value of $s$.
 \begin{equation}
-T(\tau,s)=\frac{-1^k}{k!}s^{k+1}t^k(\tau,s)
+\tilde{f}(t,s)=\frac{-1^k}{k!}s^{k+1}t^k(t,s)
 \label{eq:big_T}
 \end{equation}
 \begin{equation}
@@ -826,8 +821,31 @@ T(\tau,s)=\frac{-1^k}{k!}s^{k+1}t^k(\tau,s)
 \end{equation}
 Next, Post's inversion formula (Equation \eqref{eq:big_T}) 
 is used with an approximation of the derivates in order to invert this formula.  
-The result, $T$, can be thought of as a time shifted "smeared" approximation of the original input.
-$T$ is shifted by an amount inversely proportional to $s$.  This amount is the time constant $\taustar$ (Equation \eqref{eq:taustar}). These differential equations are described in more detail in \cite{ShanHowa12}.
+The result, $\tilde{f}$ can be thought of as a time shifted "smeared" approximation of the original input.
+$\tilde{f}$ is shifted by an amount inversely proportional to $s$.  This amount is the time constant $\taustar$ (Equation \eqref{eq:taustar}). These differential equations are described in more detail in \cite{ShanHowa12}.
+
+These equations can be analytically calculated.
+
+\begin{equation}
+F=C+e^{t/\taustar}
+\label{eq:_little_t_anal}
+\end{equation}
+Where C is an arbitrary constant and all other terms are as in \eqref{eq:little_t}. $F$ is thus equivalent to a leaky integrator.
+
+\begin{equation}
+\tilde{f}=C+\frac{1}{\taustar}\frac{k^{k+1}}{k!}(\frac{-t}{\taustar})^k e^{k\frac{t}{\taustar}}
+\label{eq:big_T_anal}
+\end{equation}
+The competing polynomial growth term ($t^k$) and exponential decay term, result in a peak and decay.
+
+\subsection{Decoding of time from simulated temporal context
+cells and time cells decreases in precision with the passage of time}
+In order to illustrate properties of theoretically-motivated models for time
+coding, we applied the LDA used on the data to two populations of simulated
+cells.  One population was composed of exponentially-decaying temporal context
+cells with a range of time constants.    The other population was chosen to
+have properties like those observed for hippocampal time cells.  
+
 
 Exponentially-decaying temporal context cells can be used to decode
 information about the time at which they were activated.  The scale over which
@@ -895,7 +913,7 @@ stimulus, the responsive of unit $i$ should be given be given by
 \end{equation}
 where $A_i$ and $B_i$ are parameters describing the baseline firing rate and
 amplitude of modulation of unit $i$, $\tau_i$ is the time constant of unit
-$i$.
+$i$.  Note this is equivalent to equation \eqref{eq:little_t_anal}.
 The set of units described by this expression provide the Laplace transform of
 $t$ the time at which the stimulus was experienced.
 
@@ -909,7 +927,7 @@ TODO: Analogous walk through the equation and each of the parameters.
 \begin{equation}
 		A_i + B_i  t^k e^{ -s_i t}
 \end{equation}
-
+Note this is equivalent to equation \eqref{eq:big_T_anal}, with collections of constants replaced with constants $A_i$ and $B_i$ for simplicity.
 \begin{figure}
 	\begin{minipage}{.25\linewidth}
 		\textbf{a}
